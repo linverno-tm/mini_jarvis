@@ -27,7 +27,7 @@
 ```bash
 # Clone repository
 git clone https://github.com/linverno-tm/mini_jarvis.git
-cd jarvis-voice-assistant
+cd mini_jarvis
 
 # Install dependencies
 flutter pub get
