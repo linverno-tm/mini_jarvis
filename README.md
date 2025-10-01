@@ -1,16 +1,39 @@
-# mini_jarvis
+# 🎙️ Jarvis - Voice Assistant Mini
 
-A new Flutter project.
+**AI-powered voice assistant with Gemini integration for Android & iOS**
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 🗣️ **Voice Interaction** - Speech-to-Text & Text-to-Speech
+- 🤖 **AI Chat** - Powered by Google Gemini 1.5 Flash
+- 🌦️ **Weather** - Real-time weather information with location
+- ⏰ **Reminders** - Set, view, and manage reminders with notifications
+- 🧮 **Calculator** - Voice-activated calculations
+- 🌓 **Dark/Light Mode** - Adaptive theme
+- 📱 **Responsive UI** - Works on all screen sizes
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Framework:** Flutter 3.x
+- **State Management:** Provider
+- **AI:** Google Gemini API
+- **Voice:** speech_to_text, flutter_tts
+- **Storage:** Hive (NoSQL)
+- **Notifications:** flutter_local_notifications
+- **Weather:** OpenWeatherMap API
+- **Location:** Geolocator
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Installation
+```bash
+# Clone repository
+git clone https://github.com/yourusername/jarvis-voice-assistant.git
+cd jarvis-voice-assistant
+
+# Install dependencies
+flutter pub get
+
+# Run code generation for Hive
+flutter pub run build_runner build --delete-conflicting-outputs
+
+# Run app
+flutter run
