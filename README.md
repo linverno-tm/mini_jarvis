@@ -26,7 +26,7 @@
 ## 📦 Installation
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/jarvis-voice-assistant.git
+git clone https://github.com/linverno-tm/mini_jarvis.git
 cd jarvis-voice-assistant
 
 # Install dependencies
